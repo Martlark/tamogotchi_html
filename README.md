@@ -3,7 +3,8 @@ A simple tamogotchi implemented as a html page and some JavaScript files.
 Installation
 ============
 
-*install* node
+*install* node.
+
 npm install websocket
 
 Then, 
