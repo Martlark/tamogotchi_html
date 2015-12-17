@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Simple Tamogotchi</title>
+	<meta detection-change="true">
+    <script src='jquery.js'></script>
+    <script src='tamogotchi.js'></script>
+    <script src='app.js'></script>
+</head>
+<body>
+    <h2>Simple Tamogotchi</h2>
+    <div id='give_birth'>
+        <img src='nest.jpg'></img>
+        <br>
+        <button id='birth' >HATCH ME!</button>
+    </div>
+    <div id='pet_board'>
+        <table id='status'>
+            <tr>
+                <td>Health</td>
+                <td>Hunger</td>
+                <td>Happiness</td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td id='health'></td>
+                <td id='hunger'></td>
+                <td id='happy'></td>
+                <td id='age'></td>
+            </tr>
+        </table>
+        <canvas id='pet'></canvas>
+        <table id='actions'>
+            <tr>
+                <td><button id='feed'>Feed</button></td>
+                <td><button id='play' >Play</button></td>
+                <td><button id='clean' >Clean</button></td>
+                <td><button id='sleep' >Sleep</button></td>
+                <td><button id='restart' >Try Again</button></td>
+            </tr>
+        </table>
+    </div>
+    <div id='pet_resources' style='display:none'>
+        <img id='img_poop' src='poop.png'></img>
+        <img id='img_egg' src='egg.jpg'></img>
+        <img id='img_play' src='play.jpg'></img>
+        <img id='img_eat' src='eat.jpg'></img>
+        <img id='img_flush' src='flush.gif'></img>
+        <img id='img_dump' src='dump.jpg'></img>
+        
+        <img id='img_baby' src='baby.jpg'></img>
+        <img id='img_child' src='child.jpg'></img>
+        <img id='img_teenager' src='teenager.jpg'></img>
+        <img id='img_adult' src='adult.jpg'></img>
+        <img id='img_grandpa' src='grandpa.jpg'></img>
+        <img id='img_dead' src='dead.jpg'></img>
+        
+        <img id='img_baby_sleep' src='baby_sleep.jpg'></img>
+        <img id='img_child_sleep' src='child_sleep.jpg'></img>
+        <img id='img_teenager_sleep' src='teenager_sleep.jpg'></img>
+        <img id='img_adult_sleep' src='adult_sleep.jpg'></img>
+        <img id='img_grandpa_sleep' src='grandpa_sleep.jpg'></img>
+    </div>
+</body>
+</html>
